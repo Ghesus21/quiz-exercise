@@ -1,0 +1,28 @@
+@use "../../style/variables" as *;
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin: 35px 10px 15px 15px;
+}
+
+.progressbar {
+  flex-grow: 1;
+  height: 5px;
+  border-radius: 4px;
+  background-color: $gradientBarBackground;
+  position: relative;
+  .progress {
+    background: $gradient;
+    height: 5px;
+    transition: width 1s;
+    width: 60%;
+  }
+}
+
+.answered {
+  display: inline-block;
+  color: $primaryRed;
+  font-size: 12px;
+  margin-left: 20px;
+}

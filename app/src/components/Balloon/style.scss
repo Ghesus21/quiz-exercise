@@ -1,0 +1,15 @@
+@use "../../style/variables" as *;
+
+.balloon {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(
+    45deg,
+    $primaryRedDark 0%,
+    $primaryRedMiddle 35%,
+    $primaryRedLight 100%
+  );
+}

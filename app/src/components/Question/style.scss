@@ -1,0 +1,50 @@
+@use "../../style/variables" as *;
+
+.question {
+  background-color: $questionContainerGrey;
+  margin: 10px 50px 10px 50px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+}
+
+.question-options {
+  margin: 10px 50px 10px 50px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.option {
+  flex-grow: 1;
+}
+
+.question-button {
+  background-color: $primaryRed !important;
+  border-color: $primaryRed !important;
+  width: 100%;
+  margin: 0px 5px 0px 5px;
+}
+
+.question-button:not(.question-selected):not(.result-question):hover {
+  background-color: $primaryRedDark !important;
+  border-color: $primaryRedDark !important;
+}
+
+.question-selected,
+.question-button:not(.result-question):active {
+  background-color: $primaryRedLight !important;
+  border-color: $primaryRedLight !important;
+}
+
+.correct-answer {
+  background-color: rgb(33, 93, 33) !important;
+  border-color: rgb(33, 93, 33) !important;
+}
+
+.question-button:first-child {
+  margin-left: 0px;
+}
+
+.question-button:last-child {
+  margin-right: 0px;
+}

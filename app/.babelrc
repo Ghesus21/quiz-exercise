@@ -1,0 +1,6 @@
+{
+  "presets": [
+    "@babel/preset-env", // Tämä lisää tuen moderneille JavaScript-ominaisuuksille
+    "@babel/preset-react" // Tämä mahdollistaa JSX:n ja React-koodin muuntamisen
+  ]
+}

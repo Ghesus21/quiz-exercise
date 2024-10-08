@@ -1,0 +1,24 @@
+@use "../../style/variables" as *;
+
+.quiz-logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: $iconsBackground;
+  margin: 15px;
+}
+
+.icon-title {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  display: flex;
+
+  h2 {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}

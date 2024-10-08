@@ -1,0 +1,54 @@
+@use "./variables" as *;
+
+@font-face {
+  font-family: Inter;
+  src: url(".././fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Inter";
+  color: $black;
+  font-size: 16px;
+  display: flex;
+  height: 100%;
+  background-color: white;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin-top: 60px;
+  height: 80%;
+  background-color: $greyBackground;
+  border-radius: 14px;
+  padding: 0px;
+}
+
+.content-container {
+  overflow: auto;
+  width: 75%;
+  margin-top: 50px;
+  background-color: white;
+  height: 75%;
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#root {
+  height: 100%;
+  margin: 0px;
+  flex: 1;
+  display: flex;
+}
+
+.slide-background {
+  position: relative;
+  background: linear-gradient(to right, $primaryRed, #b82a1f);
+  margin: 60px;
+  flex: 1;
+  border-radius: 250px 50px;
+}

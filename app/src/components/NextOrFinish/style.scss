@@ -1,0 +1,25 @@
+@use "../../style/variables" as *;
+
+.finish-container {
+  float: right;
+  margin-right: 15px;
+  margin-top: 40px;
+}
+
+.finish-link {
+  color: $primaryRed;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.finish-button {
+  background-color: $primaryRed !important;
+  border-color: $primaryRed !important;
+  font-size: 12px !important;
+  padding: 5px !important;
+}
+
+.finish-button:hover {
+  background-color: $primaryRedDark !important;
+  border-color: $primaryRedDark !important;
+}
