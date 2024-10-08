@@ -16,6 +16,8 @@ Using Docker:
 1. Build the image: docker compose build
 2. Start the container: docker compose up
 
+localhost:9000
+
 Running tests inside Docker:
 To run the tests in the Docker container, enter the container with the following command:
 docker exec -it quiz.exercise.com sh
